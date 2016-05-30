@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical" >
+   
+    <com.liao.MySocket.MyEditText 
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        />
+
+    
+   <Button 
+       android:id="@+id/bt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="打印"
+       android:textSize="60sp"
+       android:textColor="#ffffff"
+       android:background="@drawable/button_type"
+       android:layout_marginTop="10dp"
+       />
+
+</LinearLayout>
